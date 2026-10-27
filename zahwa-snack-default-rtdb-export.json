@@ -1,0 +1,142 @@
+{
+  "kategori": {
+    "cat-1": {
+      "deskripsi": "Aneka keripik renyah, gurih, dan pedas",
+      "nama": "Keripik & Kripik"
+    },
+    "cat-2": {
+      "deskripsi": "Kue kering tradisional dan modern",
+      "nama": "Kue Kering"
+    },
+    "cat-3": {
+      "deskripsi": "Kacang olahan oven dan goreng",
+      "nama": "Kacang-kacangan"
+    }
+  },
+  "logStok": {
+    "log-1": {
+      "catatan": "Penjualan TRX-20261019-001",
+      "jenis": "KELUAR",
+      "jumlah": 2,
+      "namaProduk": "Keripik Singkong Balado",
+      "produkId": "prd-1",
+      "tanggal": "2026-10-19T10:30:00"
+    },
+    "log-2": {
+      "catatan": "Penjualan TRX-20261019-001",
+      "jenis": "KELUAR",
+      "jumlah": 1,
+      "namaProduk": "Makaroni Pedas Daun Jeruk",
+      "produkId": "prd-3",
+      "tanggal": "2026-10-19T10:30:00"
+    }
+  },
+  "pelanggan": {
+    "cust-1": {
+      "alamat": "Jl. Merdeka No. 12",
+      "jumlahPesanan": 1,
+      "nama": "Budi Santoso",
+      "telepon": "081234567890",
+      "totalBelanja": 40000
+    },
+    "cust-2": {
+      "alamat": "Jl. Mawar No. 45",
+      "jumlahPesanan": 0,
+      "nama": "Siti Aminah",
+      "telepon": "082198765432",
+      "totalBelanja": 0
+    },
+    "cust-3": {
+      "alamat": "-",
+      "jumlahPesanan": 1,
+      "nama": "Pelanggan Umum",
+      "telepon": "-",
+      "totalBelanja": 101000
+    }
+  },
+  "produk": {
+    "prd-1": {
+      "hargaJual": 15000,
+      "hargaModal": 10000,
+      "kategoriId": "cat-1",
+      "kode": "ZS-001",
+      "nama": "Keripik Singkong Balado",
+      "satuan": "Bungkus",
+      "stok": 45,
+      "stokMinimum": 10
+    },
+    "prd-2": {
+      "hargaJual": 18000,
+      "hargaModal": 12000,
+      "kategoriId": "cat-1",
+      "kode": "ZS-002",
+      "nama": "Keripik Pisang Cokelat Lumer",
+      "satuan": "Pouch",
+      "stok": 8,
+      "stokMinimum": 15
+    },
+    "prd-3": {
+      "hargaJual": 12000,
+      "hargaModal": 7500,
+      "kategoriId": "cat-1",
+      "kode": "ZS-003",
+      "nama": "Makaroni Pedas Daun Jeruk",
+      "satuan": "Bungkus",
+      "stok": 60,
+      "stokMinimum": 10
+    }
+  },
+  "transaksi": {
+    "TRX-20261019-001": {
+      "diskon": 2000,
+      "items": [
+        null,
+        {
+          "harga": 15000,
+          "jumlah": 2,
+          "namaProduk": "Keripik Singkong Balado",
+          "produkId": "prd-1",
+          "subtotal": 30000
+        },
+        {
+          "harga": 12000,
+          "jumlah": 1,
+          "namaProduk": "Makaroni Pedas Daun Jeruk",
+          "produkId": "prd-3",
+          "subtotal": 12000
+        }
+      ],
+      "jumlahBayar": 50000,
+      "kasir": "Admin Zahwa",
+      "kembalian": 10000,
+      "metodePembayaran": "Cash",
+      "namaPelanggan": "Budi Santoso",
+      "pelangganId": "cust-1",
+      "subtotal": 42000,
+      "tanggal": "2026-10-19T10:30:00",
+      "total": 40000
+    },
+    "TRX-20261020-002": {
+      "diskon": 0,
+      "items": [
+        null,
+        {
+          "harga": 18000,
+          "jumlah": 2,
+          "namaProduk": "Keripik Pisang Cokelat Lumer",
+          "produkId": "prd-2",
+          "subtotal": 36000
+        }
+      ],
+      "jumlahBayar": 36000,
+      "kasir": "Admin Zahwa",
+      "kembalian": 0,
+      "metodePembayaran": "QRIS",
+      "namaPelanggan": "Pelanggan Umum",
+      "pelangganId": "cust-3",
+      "subtotal": 36000,
+      "tanggal": "2026-10-20T08:15:00",
+      "total": 36000
+    }
+  }
+}
